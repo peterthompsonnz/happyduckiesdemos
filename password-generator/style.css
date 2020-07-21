@@ -1,0 +1,71 @@
+:root {
+  --very-light-gray: #fdfdfd;
+  --very-dark-gray: rgb(51,51,51); 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 115%;
+  margin: 0;  
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-gray); 
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 0.25em 0; 
+}
+
+h1, h2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+}
+
+#password {
+  font: inherit; 
+  padding: 0.2em;
+  display:inline-block;
+  width: calc(100% - 0.2em);
+  height: 2.25em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 1.25em 0 0.5em 0; 
+  resize: none;
+  overflow: auto;
+}
+
+#numberOfWords {
+  width: 2.5em;
+  font-size: inherit;
+  margin: 0;  
+  padding: 0.1em 0.25em;
+  border-radius: 0.2em;
+}
+
+#passwords-list {  
+  list-style-type: square;  
+  line-height: 1.5;  
+  width: calc(100% - 1.75em);  
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 0.5em 0.5em 1em 1.5em;
+  border-radius: 6px;  
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+  background-color: var(--very-dark-gray);
+  color: var(--very-light-gray); 
+  }
+}
+

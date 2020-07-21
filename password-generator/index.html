@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Generator</title>
+	<meta name="description" content="This app generates password strings of 1 to 4 words. These come from the words.txt unix file. Created by Peter Thompson."
+	/>
+	<link href="./style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<h1>Password Generator</h1>
+		<p>Best viewed in landscape on small screen devices.</p>
+		<form>
+			<label for="numberWords">Number of words:
+      <input type="number" value="3" min="1" max="4" id="numberOfWords" />
+    </label>
+    <input type="submit" value="Generate" />
+    </form>
+
+    <div id="password-container">     
+      <textarea id="password"></textarea>
+    </div>  
+    <h2>Passwords</h2>  
+    <div id="passwords-container">
+      <ul id="passwords-list">
+      </ul>
+    </div>
+  </div>
+   
+    <script src="./register-sw.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

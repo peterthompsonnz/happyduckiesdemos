@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Collatz conjecture</title>
+	<link rel="icon" href="icon.png">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Collatz conjecture number sequences</h1>
+	<input type="text" id="input" placeholder="Enter a number to be tested">
+	<input type="button" value="Test">
+
+  <div id="result-container">
+  <textarea id="result" cols="120" rows="6"></textarea>
+  </div>
+
+	<p>
+		This web app tests the Collatz conjecture. Enter a number and press the button labeled 'Test'.</p>
+		<h2>The Collatz conjecture is...</h2>    
+		<ol>
+      <li>Take any whole number</li>
+			<li>If it is even: divide it by two to get a new number.</li>
+			<li>If it is odd: triple it (multiply it by three) and add one to get a new number.</li>
+      <li>Using the new number value repeat steps 2 and 3 until the number is 1.
+		</ol>
+		
+		<h2>Notes</h2>
+		<ul> 
+			<li>Numbers that are less than or equal to 1 are not supported.</li>
+			<li>To test a new number overwrite the value that is in the text box and click the Test button again.</li>
+		</ul>
+	</p>
+  <script src="script.js"></script>
+  </body>
+</html>

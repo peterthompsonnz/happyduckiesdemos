@@ -1,0 +1,35 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+  /* Increase the default font size, which is normally 16 pixels, by 10% to improve readability */
+  font-size: 1.1rem;
+  /* Again for readability increase the line spacing of body text */
+  line-height: 1.6;
+  /* Limit width of contents */
+  max-width: 640px;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.35em;
+}
+
+/* Reduce the font size of the text used in input elements and remove padding to make them more compact */
+input {
+  font-size: 0.85em;
+  padding: 0;
+}
+
+input[type=text] {
+  width: 200px;
+}
+
+#result {
+  /* Increase default vertical spacing of the result div */
+  margin: 1em 0;
+  /* Boost font size to emphasise it */ 
+  /* Wrap long lines of text otherwise they will escape the confines of the result div */
+  word-wrap: break-word;
+}

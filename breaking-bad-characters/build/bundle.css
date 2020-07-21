@@ -1,0 +1,7 @@
+.container.svelte-myr4lu{max-width:1100px;margin:auto;padding:0 20px}
+.cards.svelte-18mkzxi{display:grid;grid-template-columns:repeat(4, 1fr);grid-gap:1rem}@media(max-width: 800px){.cards.svelte-18mkzxi{grid-template-columns:repeat(2, 1fr)}}@media(max-width: 500px){.cards.svelte-18mkzxi{grid-template-columns:1fr}}
+.card.svelte-rrjvei.svelte-rrjvei{cursor:pointer;background-color:transparent;height:300px;perspective:1000px}.card.svelte-rrjvei h1.svelte-rrjvei{font-size:25px;border-bottom:1px #fff solid;padding-bottom:10px;margin-bottom:10px}.card.svelte-rrjvei img.svelte-rrjvei{width:100%;height:300px;object-fit:cover}.card-inner.svelte-rrjvei.svelte-rrjvei{position:relative;width:100%;height:100%;transition:transform 0.8s;transform-style:preserve-3d}.card.svelte-rrjvei:hover .card-inner.svelte-rrjvei{transform:rotateY(180deg)}.card-front.svelte-rrjvei.svelte-rrjvei,.card-back.svelte-rrjvei.svelte-rrjvei{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden}.card-back.svelte-rrjvei.svelte-rrjvei{background-color:#333;color:white;padding:20px;transform:rotateY(180deg)}.card.svelte-rrjvei li.svelte-rrjvei{list-style:none;padding-bottom:10px}
+header.svelte-hhghi3.svelte-hhghi3{height:200px}header.svelte-hhghi3 img.svelte-hhghi3{width:200px}
+.search.svelte-1gycorj{height:100px}input[type="text"].svelte-1gycorj{display:block;padding:10px;font-size:20px;border:0;border-radius:5px;width:60%;margin:auto}
+
+/*# sourceMappingURL=bundle.css.map */
