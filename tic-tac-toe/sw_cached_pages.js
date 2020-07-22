@@ -1,9 +1,9 @@
-const cacheName = 'v1.0.2';
+const cacheName = 'v1.0.3';
 
 const cacheAssets = [
-  '/index.html',
-  '/bundle.js',
-  '/bundle.css'  
+  './index.html',
+  './bundle.js',
+  './bundle.css'  
 ];
 
 // Call Install Event
