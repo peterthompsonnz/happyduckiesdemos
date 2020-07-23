@@ -1,9 +1,11 @@
-const cacheName = 'v1.0.3';
+const cacheName = 'v1.0.4';
 
 const cacheAssets = [
   './index.html',
   './bundle.js',
-  './bundle.css'  
+  './bundle.css',
+  './loadSW.js',
+  './sw_cached_pages.js'
 ];
 
 // Call Install Event
