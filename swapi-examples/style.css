@@ -1,0 +1,71 @@
+body {
+  color: #fefefe;
+  background-color: #333;
+  max-width: 640px;
+  margin: 0 auto;
+  font-family: tinos,Helvetica,Arial,sans-serif;
+  font-size: 115%;
+}
+
+button {
+  background-color: transparent;
+  color: #fefefe;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-right: 10px; 
+  border: 2px outset #fefefe; 
+}
+
+button:last-of-type {
+  margin-right: 0;
+}
+
+button:hover {
+  color: dodgerblue;
+  border-color: dodgerblue;
+  border: 2px inset dodgerblue; 
+}
+
+.card {
+  background-color: #2e2e2e;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 1.5em 0 1em 0;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.card h2 {
+  font-size: 1.35em;
+  margin: 0.25em 0;
+}
+
+.card h3 {
+  font-size: 1.15em;
+  margin: 0.25em 0;
+}
+
+.card ul {
+  padding-left: 1.5em;
+}
+
+.card li {
+  margin-bottom: 0.25em;
+}
+
+.card li:last-of-type {
+  margin-bottom: 0;
+}
+
+.link {
+  color: dodgerblue;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.link:hover {  
+   border-bottom: 1px solid dodgerblue;
+}
+
+#buttons-container {
+  display: none;
+}
