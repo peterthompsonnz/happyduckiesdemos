@@ -136,9 +136,11 @@ function displayPlanets(data) {
   data.forEach(planet => {
     let str = `<div class="card">`;
     str += `<h2>${planet.name}</h2>`;
-    str += `<p><strong>Diameter</strong>: ${Number(planet.diameter).toLocaleString('en-NZ')}Km</p>`;
+    str += `<p><strong>Diameter</strong>: `;
+    str += `${!isNaN(planet.diameter) ? Number(planet.diameter).toLocaleString('en-NZ'): '[Unkown]'}Km</p>`;
     str += `<p><strong>Climate</strong>: <a href="${planet.climate}" class="link">${planet.climate}</a></p>`;
-    str += `<p><strong>Population</strong>: ${Number(planet.population).toLocaleString("en-NZ")}</p>`;
+    str += `<p><strong>Population</strong>: `;
+    str += `${!isNaN(planet.population) ? Number(planet.population).toLocaleString("en-NZ"): '[Unkown]'}</p>`;
     str += `<h3>Films</h3>`;   
     str += `<ul>`; 
     // Planets have usually been in more than one film so list them  
