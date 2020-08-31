@@ -1,5 +1,5 @@
 body {
-	font-family: helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   /* Increase the default font size, which is normally 16 pixels, by 10% to improve readability */
   font-size: 1.1rem;
   /* Again for readability increase the line spacing of body text */
@@ -17,14 +17,17 @@ h2 {
   font-size: 1.35em;
 }
 
-/* Reduce the font size of the text used in input elements and remove padding to make them more compact */
+/* Reduce the font size of the text used in input elements */
 input {
-  font-size: 0.85em;
-  padding: 0;
+  font-size: 0.85em;  
 }
 
 input[type=text] {
   width: 200px;
+  padding: 0.15em;
+}
+input[type=button] {  
+  padding: 0.15em 0.25em;
 }
 
 #result-container {  
